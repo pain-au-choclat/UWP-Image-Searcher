@@ -9,6 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <Image x:Name="foundObjectImage" HorizontalAlignment="Center" Height="999" VerticalAlignment="Center" Width="1499"/>
+        <TextBox x:Name="searchTermsTextBox" HorizontalAlignment="Left" 
+            Margin="1247,916,0,0" Text="" VerticalAlignment="Top" 
+            PlaceholderText="What do you want to see?" KeyDown="OnKeyDownHandler"/>
     </Grid>
 </Page>
